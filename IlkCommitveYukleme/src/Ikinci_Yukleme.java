@@ -5,6 +5,6 @@ public class Ikinci_Yukleme {
         int b = 10;
 
         System.out.println(a*b);
-        System.out.println("Yedek branch olusturup yukleme yapiyoruz");
+        System.out.println("Yedek branch olusturup yukleme yapiyoruz...");
     }
 }
