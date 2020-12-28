@@ -15,8 +15,10 @@ public class mergeTest {
     }
 
     public void setName(String name2) {
+        System.out.println("aaa");
         this.name = name2;
-        //this.name = name1;
+        // incoming changes
+        System.out.println("bbb");
     }
 
     public String getSurname() {
