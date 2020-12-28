@@ -20,6 +20,7 @@ public class mergeTest {
         // incoming changes
         System.out.println("bbb");
         System.out.println(name2);
+        System.out.println(surname);
     }
 
     @Override
