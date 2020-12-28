@@ -19,6 +19,16 @@ public class mergeTest {
         this.name = name2;
         // incoming changes
         System.out.println("bbb");
+        System.out.println(name2);
+    }
+
+    @Override
+    public String toString() {
+        return "mergeTest{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", number=" + number +
+                '}';
     }
 
     public String getSurname() {
