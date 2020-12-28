@@ -16,6 +16,7 @@ public class mergeTest {
 
     public void setName(String name2) {
         this.name = name2;
+        //this.name = name1;
     }
 
     public String getSurname() {
