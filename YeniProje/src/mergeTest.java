@@ -14,9 +14,21 @@ public class mergeTest {
         return name;
     }
 
-    public void setName(String name2) {
-        this.name = name2;
+    public void setName(String name3) {
+        this.name = name3;
         //this.name = name1;
+        System.out.println(this.name);
+        System.out.println(name3);
+        System.out.println(name3);
+    }
+
+    @Override
+    public String toString() {
+        return "mergeTest{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", number=" + number +
+                '}';
     }
 
     public String getSurname() {
