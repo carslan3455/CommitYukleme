@@ -14,8 +14,8 @@ public class mergeTest {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String name1) {
+        this.name = name1;
     }
 
     public String getSurname() {
